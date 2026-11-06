@@ -5,6 +5,7 @@ Cloud File Manager - Upload and Download files using AWS EC2 and S3.
 
 ## Architecture
 User (Laptop) -> EC2 Instance (t3.micro, Amazon Linux) -> S3 Bucket
+![Architecture Diagram](architecture-diagram.jpeg)
 
 Architecture Diagram created using draw.io / diagrams.net
 Flowchart created using Lucidchart / draw.io
