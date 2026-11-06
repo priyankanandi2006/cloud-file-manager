@@ -1,0 +1,16 @@
+Cloud File Manager - AWS Commands
+
+Step 1 - Create file in EC2:
+echo "Hello Cloud" > test.txt
+
+Step 2 - Upload EC2 to S3:
+aws s3 cp test.txt s3://priyanka-cloud-file-manager-2026/test.txt
+
+Step 3 - Download S3 to EC2:
+aws s3 cp s3://priyanka-cloud-file-manager-2026/test.txt downloaded.txt
+
+Step 4 - Verify file:
+cat downloaded.txt
+ls -l
+
+Step 5 - Stop EC2 after work done to save cost.
